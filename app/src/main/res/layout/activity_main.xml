@@ -23,7 +23,7 @@
 
     <EditText
         android:id="@+id/editTextHeight"
-        android:hint="Height (cm)"
+        android:hint="Your Height (cm)"
         android:inputType="numberDecimal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -33,7 +33,7 @@
 
     <EditText
         android:id="@+id/editTextWeight"
-        android:hint="Weight (kg)"
+        android:hint="Your Weight (kg)"
         android:inputType="numberDecimal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -43,7 +43,7 @@
 
     <EditText
         android:id="@+id/editTextAge"
-        android:hint="Age"
+        android:hint="Your Age"
         android:inputType="number"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

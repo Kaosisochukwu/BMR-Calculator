@@ -46,8 +46,8 @@ class MainActivity : AppCompatActivity() {
 
         // Calculate BMR based on gender, age, weight, height and activity level
         val bmr = when (gender) {
-            "male" -> calculateMaleBMR(weight, height, age, activityLevel)
-            "female" -> calculateFemaleBMR(weight, height, age, activityLevel)
+            "Male" -> calculateMaleBMR(weight, height, age, activityLevel)
+            "Female" -> calculateFemaleBMR(weight, height, age, activityLevel)
             else -> 0f
         }
 
